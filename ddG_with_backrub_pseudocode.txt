@@ -1,0 +1,35 @@
+### Pseudo Code
+
+"""
+import pyrosetta
+
+import pose from pdb
+
+make PackedPose object for parallelizaation
+clone pose for "starting pose"
+
+make a backrub ensemble of WT, relaxed
+ 
+label each backrub structure 
+ 
+pass the 50 structures into a "mutate" function, which makes 50 structure of the same mutation, starting from the
+    50 WT backrubbed structures
+ at this point, you should have 50 structures for each point mutation tested, plus the WT (50 structures)
+
+
+for each mutation:
+    for each backrub structure:
+        minimize
+
+
+now we have n_mutations objects with 50 poses, each pose can be scored
+
+calculate a ddG of score per pose
+
+calculate an average ddG of mutation compared to wt average ddG
+
+store in a pandas dataframe
+
+make a heatmap
+  
+"""
