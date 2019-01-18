@@ -21,6 +21,8 @@ FastRelax-
 Score mutant
  
 PDB- 3m1i A
+
+Benchmark - 1stn - http://www.rcsb.org/structure/1STN 
  
 
 
